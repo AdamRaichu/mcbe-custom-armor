@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Custom Armor §7by AdamRaichu",
+    "description": "Adds §5obsidian §r and §7Invisible §rarmor to Minecraft.\n\nSee source code @\ngithub.com/AdamRaichu/mcbe-custom-armor",
+    "uuid": "90e56d43-9cc2-4bb4-8e89-65687d152515",
+    "version": [
+      2,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      19,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "description": "behavior module",
+      "type": "data",
+      "uuid": "e73bac5d-0e18-4567-a153-287b349c7469",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "387d3d38-e897-475f-99d4-028a828e169d",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    }
+  ]
+}

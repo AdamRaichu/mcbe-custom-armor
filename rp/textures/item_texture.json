@@ -1,0 +1,28 @@
+{
+  "texture_data": {
+    "obs_helm": {
+      "textures": "textures/items/obsidian_helmet"
+    },
+    "obs_chest": {
+      "textures": "textures/items/obsidian_chestplate"
+    },
+    "obs_legs": {
+      "textures": "textures/items/obsidian_leggings"
+    },
+    "obs_boots": {
+      "textures": "textures/items/obsidian_boots"
+    },
+    "invis_helm": {
+      "textures": "textures/items/invisible_helmet"
+    },
+    "invis_chest": {
+      "textures": "textures/items/invisible_chestplate"
+    },
+    "invis_legs": {
+      "textures": "textures/items/invisible_leggings"
+    },
+    "invis_boots": {
+      "textures": "textures/items/invisible_boots"
+    }
+  }
+}
