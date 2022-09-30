@@ -21,14 +21,19 @@
         "slot": "armor_torso"
       },
       "minecraft:armor": {
-        "protection": 8
+        "protection": 8,
+        "texture_type": "diamond"
       },
       "minecraft:wearable": {
         "dispensable": true,
         "slot": "slot.armor.chest"
       },
       "minecraft:durability": {
-        "max_durability": 800
+        "max_durability": 800,
+        "damage_chance": {
+          "min": 100,
+          "max": 100
+        }
       }
     }
   }

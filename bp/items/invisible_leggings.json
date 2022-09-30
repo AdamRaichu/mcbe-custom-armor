@@ -21,14 +21,19 @@
         "slot": "armor_legs"
       },
       "minecraft:armor": {
-        "protection": 0
+        "protection": 0,
+        "texture_type": "diamond"
       },
       "minecraft:wearable": {
         "dispensable": true,
         "slot": "slot.armor.legs"
       },
       "minecraft:durability": {
-        "max_durability": 105
+        "max_durability": 105,
+        "damage_chance": {
+          "min": 100,
+          "max": 100
+        }
       },
       "minecraft:repairable": {
         "repair_items": [
