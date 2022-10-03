@@ -35,7 +35,7 @@ jobs:
           script: |
             var AdmZip = require("adm-zip");
             var zip = new AdmZip();
-            zip.addLocalFile("./bp");
+            zip.addLocalFolder("./bp");
             zip.writeZip("./assets/${{ inputs.versionString }}/test.zip");
       - name: commit changes
         run: |
