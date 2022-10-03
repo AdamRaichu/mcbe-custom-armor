@@ -34,9 +34,12 @@ jobs:
         with:
           script: |
             var AdmZip = require("adm-zip");
-            var zip = new AdmZip();
-            zip.addLocalFolder("./bp");
-            zip.writeZip("./assets/${{ inputs.versionString }}/test.zip");
+            var bp = new AdmZip();
+            bp.addLocalFolder("./bp");
+            bp.writeZip("./assets/${{ inputs.versionString }}/bp.mcpack");
+            var rp = new AdmZip();
+            rp.addLocalFolder("./rp");
+            rp.writeZip("./assets/${{ inputs.versionString }}/rp.mcpack");
       - name: commit changes
         run: |
           git pull
