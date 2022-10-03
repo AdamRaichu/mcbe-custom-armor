@@ -36,10 +36,13 @@ jobs:
             var AdmZip = require("adm-zip");
             var bp = new AdmZip();
             bp.addLocalFolder("./bp");
-            bp.writeZip("./assets/${{ inputs.versionString }}/bp.mcpack");
+            bp.writeZip("./assets/${{ inputs.versionString }}/carm_bp.mcpack");
             var rp = new AdmZip();
             rp.addLocalFolder("./rp");
-            rp.writeZip("./assets/${{ inputs.versionString }}/rp.mcpack");
+            rp.writeZip("./assets/${{ inputs.versionString }}/carm_rp.mcpack");
+            var addon = new AdmZip();
+            addon.addLocalFolder("./assets/${{ inputs.versionString }}");
+            addon.writeZip("./assets/${{ inputs.versionString }}/custom_armor.mcaddon");
       - name: commit changes
         run: |
           git pull
