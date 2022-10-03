@@ -4,6 +4,8 @@ This Minecraft: Bedrock Edition addon adds several custom armor sets to the game
 
 > **Note**
 > Requires `Holiday Creator Features` experimental toggle (in world settings) to be set to true.
+>
+> Also, currently the armor effects are not applied automatically. Run this command in a repeating command block to apply the effects. `function custom_armor/effects`
 
 | [Obsidian](#obsidian) | [Invisibility](#invisible) |
 | :------: | :---: |
