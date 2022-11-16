@@ -1,0 +1,16 @@
+name: Generate Assets
+on:
+  workflow_dispatch:
+    inputs:
+      versionString:
+       type: string
+       required: true
+jobs:
+  generate:
+    uses: AdamRaichu/mcaddon-package-workflow/.github/workflows/main.yml@v1
+    with:
+      pack_name: custom_armor
+      pack_type: 0
+      target_path: ./assets/${{ inputs.versionString }}
+      bp_path: ./bp
+      rp_path: ./rp
